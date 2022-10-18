@@ -1,0 +1,23 @@
+<html>
+<head>
+<style>
+img {
+display:blocck;
+width:800px;
+ margin:0 auto;
+transition:0.4sec;
+}
+</style>
+
+<body>
+<img src="12.jpg " id="img">
+<script type="text/javascript">
+Let image=document.getElementById('image');
+Let images=["1.jpg,10.jpg"];
+setInterval(function(){
+Let random=Math.floor(Math. random()*2);
+image.src=images[random];
+},800);
+</script>
+</body>
+</html>
